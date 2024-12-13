@@ -40,4 +40,13 @@ public class TodoEntity {
     public void setConcluir(Boolean concluir) {
         this.concluir = concluir;
     }
+
+    @Override
+    public String toString() {
+        return "TodoEntity{" +
+                "id=" + id +
+                ", descricao='" + descricao + '\'' +
+                ", concluir=" + concluir +
+                '}';
+    }
 }
